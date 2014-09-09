@@ -4,12 +4,59 @@
 	<link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body>
-	<div id="map-canvas" />
+	<div id="headerWrapper">
+		<div id="title">
+			Taxies for you
+		</div>
+	</div>
+
+	<div id="map-canvas" ></div>
+
+	<div id="detailsWrapper">
+		<span style="width: 100%; text-align: center; display: table;">Select pickup and drop point in the map</span>
+		<table style="width: 100%; table-layout: fixed;">
+			<tr>
+				<td>
+					Pick up
+				</td>
+				<td>
+					<span id="pickup">
+						Select on the map
+					</span>
+				</td>
+				<td>
+					Estimated distance
+				</td>
+				<td>
+					<span id="distance">
+						0.00
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Drop
+				</td>
+				<td>
+					<span id="drop">
+						Select on the map
+					</span>
+				</td>
+				<td>
+					Estimated charge
+				</td>
+				<td>
+					<span id="charge">
+						0.00
+					</span>
+				</td>
+			</tr>
+		</table>
+	</div>
 
 	<script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbti_dwPwuvAVsV4kz6zZHRcyPS67kFxI"></script>
 	<script type="text/javascript" src="assets/script.js"></script>
-
 </body>
 </html>
 

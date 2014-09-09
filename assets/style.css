@@ -1,3 +1,37 @@
- html { height: 100% }
-      body { height: 100%; margin: 0; padding: 0 }
-      #map-canvas { height: 100% }
+* {
+    font-family: arial;
+}
+body {
+    background-image: url("../assets/images/pic.png");
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#headerWrapper {
+    margin: auto;
+    text-align: center;
+    width: 960px;
+}
+#title {
+    color: #ffc500;
+    font-family: arial;
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding: 8px;
+}
+#map-canvas {
+    box-shadow: 0 7px 18px -2px;
+    display: table;
+    height: 500px;
+    margin: auto;
+    width: 960px;
+}
+#detailsWrapper {
+    background-color: #fff;
+    box-shadow: 0 7px 18px -2px;
+    display: table;
+    margin: 10px auto;
+    width: 940px;
+    padding: 10;
+}
