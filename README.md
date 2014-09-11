@@ -1,4 +1,4 @@
-google-map-for-taxi-web-app
+Google-maps-for-taxi-web-app
 ===========================
 
 This is the simple web app using Google maps for calculating estimated fare for taxies.
